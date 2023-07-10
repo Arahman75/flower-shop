@@ -1,3 +1,54 @@
-h2 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start shared style */
+body {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.btn {
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+}
+
+/* start header style */
+.header-container {
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0 120px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 630px;
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    width: 530px;
+    margin: 20px 0;
+
+}
+
+.header-img {
+    width: 500px;
+    height: 630px;
 }
