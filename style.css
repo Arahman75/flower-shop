@@ -19,6 +19,13 @@ body {
     background: #E55473;
 }
 
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 /* start header style */
 .header-container {
     background: rgba(229, 84, 115, 0.10);
@@ -51,4 +58,58 @@ body {
 .header-img {
     width: 500px;
     height: 630px;
+}
+
+/* start feature style */
+.feature-container {
+    margin: 100px 180px 50px 180px;
+}
+
+.feature-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    text-align: center;
+    height: 380px;
+    width: 280px;
+}
+
+.feature-img {
+    width: 90%;
+    padding: 80px 40px 0 40px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+#first-img {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+#second-img {
+    height: 350px;
+    width: 245px;
+    background: rgba(5, 151, 160, 0.15)
+}
+
+#third-img {
+    background: rgba(71, 125, 17, 0.15);
+    width: 83%;
+}
+
+.feature-des {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    width: 520px;
+    margin: auto;
+}
+
+.flower-name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 25px 0;
+    text-decoration-line: underline;
 }
