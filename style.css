@@ -124,6 +124,10 @@ body {
     justify-content: space-between;
 }
 
+.hide {
+    display: none;
+}
+
 .favorite-card {
     width: 220px;
     height: 350px;
@@ -282,4 +286,19 @@ footer {
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+}
+
+/* responsive style */
+/* mobile device */
+@media screen and (max-width:576px) {
+    .header-container {
+        background: rgba(235, 9, 58, 0.1);
+        padding: 0 30px;
+        padding-top: 30px;
+        flex-direction: column;
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        height: 100%;
+    }
 }
